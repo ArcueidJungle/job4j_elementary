@@ -31,11 +31,11 @@ public class MatrixCheckTest {
     @Test
     public void whenHasNoMonoHorizontaAt1() {
         char[][] input = {
-                {'X', 'X', 'X'},
+                {'X', '0', 'X'},
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
         };
-        int row = 1;
+        int row = 0;
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertFalse(result);
     }
