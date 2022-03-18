@@ -31,7 +31,7 @@ public class MatrixCheckTest {
     @Test
     public void whenHasNoMonoHorizontaAt1() {
         char[][] input = {
-                {'X', '0', 'X'},
+                {'X', ' ', 'X'},
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
         };
